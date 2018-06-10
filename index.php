@@ -65,7 +65,6 @@
       <button type="button" onclick="openWebElement()" class="center-red-button" id="open_web_btn" name="openWebButton">Open Web Analyzer </button>
       <!--web cost calculator-->
       <div class="" id="cost-analysis">
-
       </div>
         </main>
 
