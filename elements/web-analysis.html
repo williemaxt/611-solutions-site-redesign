@@ -1,12 +1,12 @@
 <!--Script to operate the tool-->
 <script type="text/javascript">
-  var finalPrice = 20.0;
+  var finalPrice = 0.0;
   var price_span = document.getElementById('price-span');
+  //Adding 1000 to the total
   function add1000() {
-    finalPrice = finalPrice += 1000;
+    finalPrice = finalPrice += 1000.00;
     price_span.innerHTML = finalPrice;
   }
-
 </script>
 <ul>
   <!--Group of buttons to the left-->
@@ -24,6 +24,7 @@
   <li id="money-display">
     <div>
       <h2>You'll Pay around:</h2>
+      <img src="ui/x-button.svg" onclick="closeWebElement();" class="close" alt="">
       <h1>$<span id="price-span">0.00</span></h1>
   </div>
 </li>
