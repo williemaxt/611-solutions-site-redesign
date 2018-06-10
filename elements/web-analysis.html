@@ -2,18 +2,22 @@
 <script type="text/javascript">
   var finalPrice = 20.0;
   var price_span = document.getElementById('price-span');
-  price_span.innerHTML = "20.00";
+  function add1000() {
+    finalPrice = finalPrice += 1000;
+    price_span.innerHTML = finalPrice;
+  }
+
 </script>
 <ul>
   <!--Group of buttons to the left-->
   <li id="button-group"><div>
     <ul>
-      <li><button id="base-website">Base Website</button></li>
-      <li><button id="cms">Content Management</button></li>
-      <li><button id="security">Security Updates</button></li>
-      <li><button id="db-connect">Database Connectivity</button></li>
-      <li><button id="user-auth">User Authentication</button></li>
-      <li><button id="app-link">Link With Mobile App</button></li>
+      <li><button id="base-website" onclick="add1000();">Base Website</button></li>
+      <li><button id="cms" onclick="add1000();">Content Management</button></li>
+      <li><button id="security" onclick="add1000();">Security Updates</button></li>
+      <li><button id="db-connect" onclick="add1000();">Database Connectivity</button></li>
+      <li><button id="user-auth" onclick="add1000();">User Authentication</button></li>
+      <li><button id="app-link" onclick="add1000();">Link With Mobile App</button></li>
     </ul>
   </div></li>
   <!--Div that displays price to the right-->
