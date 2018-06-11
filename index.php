@@ -61,11 +61,14 @@
         <input type="text" class="" name="" value="" placeholder="www.example.com">
       </form>
       <img id="domain-search" src="ui/right-arrow.svg" onclick="changePicture();">
-      <h1>Try Our Cost Analyzer</h1>
-      <button type="button" onclick="openWebElement()" class="center-red-button" id="open_web_btn" name="openWebButton">Open Web Analyzer </button>
       <!--web cost calculator-->
-      <div class="" id="cost-analysis">
+      <div class="cost-analysis" id="web-cost-analysis">
       </div>
+      <h1>Try Our Cost Analyzers</h1>
+      <button href="#cost-analysis" type="button" onclick="openWebElement()" class="center-wide-button" id="open_web_btn" name="openWebButton">Open Web App Analyzer</button>
+      <button type="button" onclick="openWebElement()" class="center-wide-button" id="open_web_btn" name="openWebButton">Open Mobile App Analyzer</button>
+      <button type="button" onclick="openWebElement()" class="center-wide-button" id="open_web_btn" name="openWebButton">Open Desktop App Analyzer</button>
+      <button type="button" onclick="openWebElement()" class="center-wide-button" id="open_web_btn" name="openWebButton">Open Console App Analyzer</button>
         </main>
 
     <footer class="footer-normal">
