@@ -205,6 +205,28 @@ body{
   font-size: 1.25em;
   font-weight: bold;
 }
+.center-wide-button{
+  width: 80%;
+  height: 150px;
+  display: block;
+  margin: 0px auto;
+  text-decoration: none;
+  background: #ffffff;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+  box-shadow: 0px 5px 10px #888888;
+  border-radius: 5px;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.center-wide-button:hover{
+  background: none;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+  box-shadow: 0px 5px 10px #888888;
+  transition: .5s;
+}
 #domain-search{
   width: 100px;
   height: auto;
@@ -252,7 +274,7 @@ body{
   border-top-right-radius: 5px;
 }
 /*cost cost-analysis*/
-#cost-analysis{
+.cost-analysis{
   width: 100%;
   display: block;
   background: #c0c0c0;
@@ -261,12 +283,12 @@ body{
   margin: 0px auto;
   border-radius: 5px;
 }
-#cost-analysis ul{
+.cost-analysis ul{
   list-style: none;
   padding: 0;
   margin: 0;
 }
-#cost-analysis ul li{
+.cost-analysis ul li{
   display: inline-block;
 }
 #button-group{
@@ -378,4 +400,8 @@ body{
   background: var(--second-color);
   height: 50px;
   margin: 0;
+}
+/*Media Queries*/
+@media screen and (max-width: 1200px){
+
 }
