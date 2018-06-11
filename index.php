@@ -64,8 +64,9 @@
       <!--web cost calculator-->
       <div class="cost-analysis" id="web-cost-analysis">
       </div>
+      <!--Buttons to load the cost-analysis div-->
       <h1>Try Our Cost Analyzers</h1>
-      <button href="#cost-analysis" type="button" onclick="openWebElement()" class="center-wide-button" id="open_web_btn" name="openWebButton">Open Web App Analyzer</button>
+      <button type="button" onclick="openWebElement()" class="center-wide-button" id="open_web_btn" name="openWebButton">Open Web App Analyzer</button>
       <button type="button" onclick="openWebElement()" class="center-wide-button" id="open_web_btn" name="openWebButton">Open Mobile App Analyzer</button>
       <button type="button" onclick="openWebElement()" class="center-wide-button" id="open_web_btn" name="openWebButton">Open Desktop App Analyzer</button>
       <button type="button" onclick="openWebElement()" class="center-wide-button" id="open_web_btn" name="openWebButton">Open Console App Analyzer</button>
