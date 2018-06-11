@@ -403,5 +403,43 @@ body{
 }
 /*Media Queries*/
 @media screen and (max-width: 1200px){
+  .cost-analysis{
+    width: 90%;
+  }
+  #money-display h1{
+    font-size: 5em;
+  }
+  #button-group{
+    min-width: 100px;
+  }
+}
+
+@media screen and (max-width: 570px){
+  #money-display h2{
+    width: 90%;
+    display: none;
+  }
+  #money-display{
+    width: 70%;
+  }
+  .close{
+    margin-top: -60px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  #money-display h2{
+    width: 90%;
+    display: none;
+  }
+  #money-display{
+    width: 60%;
+  }
+  #money-display h1{
+    font-size: 3em;
+  }
+  .close{
+    margin-right: -10px;
+  }
 
 }
